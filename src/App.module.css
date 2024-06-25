@@ -1,0 +1,78 @@
+.App {
+    margin: 200px auto;
+    width: 1000px;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+    align-items: center;
+    padding: 30px 0;
+
+    width: 500px;
+    height: 350px;
+    border: 6px solid #4ab333;
+    border-radius: 10px;
+    color: #036d21;
+    background-color: #e9fedf;
+}
+
+.counterMax {
+    background-color: #fefcd1;
+}
+
+.showNumber {
+    font-size: 140px;
+}
+
+.showText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.showText, .showNumber {
+    width: 380px;
+    height: 200px;
+    background-color: #f8c829;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.showNumberRed {
+    color: red;
+    font-weight: 700;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    width: 480px;
+    height: 150px;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    border: 3px solid #1d9603;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.inputSpan {
+    font-size: 30px;
+    font-weight: 600;
+
+}

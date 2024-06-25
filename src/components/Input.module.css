@@ -1,0 +1,34 @@
+
+.customInput,.inputError {
+    color: #333333;
+    background-color: #fff6d7;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ebae08;
+    border-radius: 4px;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+
+    &:focus {
+        outline: 1px solid rgba(91, 129, 216, 0.33);
+
+    }
+
+    &:active {
+        outline: 1px solid rgba(91, 129, 216, 0.33);
+    }
+    }
+
+.error {
+    border: red 1px solid;
+    width: 70%;
+    border-radius: 5px;
+    height: 25px;
+}
+.inputError{
+    border: 1px solid red;
+    background-color: #edcfcf;
+    color:red
+}
